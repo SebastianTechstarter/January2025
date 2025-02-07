@@ -1,0 +1,2 @@
+numpy
+# pip3 install -r requirements_numpy.txt
