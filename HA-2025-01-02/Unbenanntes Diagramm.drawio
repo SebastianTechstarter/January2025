@@ -1,0 +1,70 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Seite-1" id="B3aWt1GQqfWxFyMA3v1U">
+    <mxGraphModel dx="1036" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="46sWT4AFfI1PxV-Qn0Mn-1" value="&lt;span id=&quot;docs-internal-guid-9f847513-7fff-5e77-34c4-acc7c4e953e7&quot;&gt;&lt;p style=&quot;line-height:1.3218586921691895;margin-left: 36.220001220703125pt;margin-right: 6.5760498046875pt;text-indent: 3.7029876708984375pt;margin-top:1.70928955078125pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font color=&quot;#f5f5f5&quot;&gt;Entwickle ein Flussdiagramm für einen Algorithmus, der den Durchschnittswert von Zahlen in einer Liste berechnet.&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.2;margin-left: 54.957000732421875pt;margin-top:0.59222412109375pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font color=&quot;#f5f5f5&quot;&gt;○ Schritte:&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.2;margin-left: 91.19900512695312pt;margin-top:1.709228515625pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font color=&quot;#f5f5f5&quot;&gt;1. Nimm eine Liste von Zahlen als Eingabe.&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.2;margin-left: 90.31900024414062pt;margin-top:1.709320068359375pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font color=&quot;#f5f5f5&quot;&gt;2. Summiere alle Zahlen in der Liste.&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.2;margin-left: 90.46200561523438pt;margin-top:1.709228515625pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font color=&quot;#f5f5f5&quot;&gt;3. Teile die Summe durch die Anzahl der Elemente.&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.2;margin-left: 90.14300537109375pt;margin-top:1.709259033203125pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font color=&quot;#f5f5f5&quot;&gt;4. Gib das Ergebnis aus.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="470" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="46sWT4AFfI1PxV-Qn0Mn-2" value="Gib eine Liste von Zahlen ein" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="46sWT4AFfI1PxV-Qn0Mn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="46sWT4AFfI1PxV-Qn0Mn-3" target="46sWT4AFfI1PxV-Qn0Mn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46sWT4AFfI1PxV-Qn0Mn-3" value="Addiere alle Zahlen in der Liste miteinander (Summenfunktion)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="46sWT4AFfI1PxV-Qn0Mn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="46sWT4AFfI1PxV-Qn0Mn-5" target="46sWT4AFfI1PxV-Qn0Mn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46sWT4AFfI1PxV-Qn0Mn-5" value="zähle die Anzahl der&amp;nbsp; Elemente in der Liste" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="46sWT4AFfI1PxV-Qn0Mn-7" value="Dargstellt durch Variable:&lt;div&gt;summe&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="360" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="46sWT4AFfI1PxV-Qn0Mn-10" value="Dargstellt durch Variable:&lt;div&gt;anzahl&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="480" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="46sWT4AFfI1PxV-Qn0Mn-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=43;endSize=10.04;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="440" as="sourcePoint" />
+            <mxPoint x="339.5" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="46sWT4AFfI1PxV-Qn0Mn-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=43;endSize=10.04;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="560" as="sourcePoint" />
+            <mxPoint x="339.5" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="46sWT4AFfI1PxV-Qn0Mn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="46sWT4AFfI1PxV-Qn0Mn-16" target="46sWT4AFfI1PxV-Qn0Mn-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46sWT4AFfI1PxV-Qn0Mn-16" value="Bilde den Druchschnittswert:&lt;div&gt;summe&lt;/div&gt;&lt;div&gt;------------&lt;/div&gt;&lt;div&gt;anzahl&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="620" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="46sWT4AFfI1PxV-Qn0Mn-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=43;endSize=10.04;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="720" as="sourcePoint" />
+            <mxPoint x="340" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="46sWT4AFfI1PxV-Qn0Mn-18" value="Ausgabe mit &quot;print&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="770" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="46sWT4AFfI1PxV-Qn0Mn-19" value="Dargstellt durch Variable:&lt;div&gt;quote&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="625" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="46sWT4AFfI1PxV-Qn0Mn-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=43;endSize=10.04;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="320" as="sourcePoint" />
+            <mxPoint x="339.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
