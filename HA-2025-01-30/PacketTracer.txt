@@ -1,0 +1,24 @@
+Ping von PC0 an PC:
+ICMP:
+ARP: Daten von PC0 > Switch > Router > PC und denselben Weg zurück
+			    > PC1 (Fehler)
+			    > PC2 (Fehler)
+
+Ping von PC0 an cisco.srv:
+ARP: Daten von PC0 > Switch > Router und wieder zurück über Switch an PC0
+			    > PC1 (Fehler)
+			    > PC2 (Fehler)
+
+ICMP: Daten von PC0 > Switch > Router > Modem > Internet > Cisco.srv und denselben Weg zurück.
+
+Grundlegender Unterschied: ARP geht nicht den ganzen Weg, sondern nur bis zum Router und wieder zurück.
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Seite-1" id="jwl7tE964F71opH2X882">
+    <mxGraphModel dx="1050" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wm9D5R3GlwCYCQ5zJYFi-1" target="Wm9D5R3GlwCYCQ5zJYFi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-1" value="&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Nutzer gibt eine Suchanfrage in die Suchleiste ein. (Bsp: Laptop)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="244" y="140" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-2" value="&lt;div style=&quot;-webkit-tap-highlight-color: transparent; color: rgba(0, 0, 0, 0.87); font-family: &amp;quot;Google Sans&amp;quot;; text-align: left; text-wrap: wrap; background-color: rgb(255, 255, 255);&quot; data-message-id=&quot;spaces/Yk4keEMcvSgB/messages/1737727300964800&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent; border-radius: 0.25rem;&quot; class=&quot;jO4O1&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent; color: var(--hotlane-on-background-color); font-size: 0.8125rem; line-height: 1.25rem; padding-left: 1rem; padding-right: 1rem; position: relative; white-space-collapse: preserve; overflow-wrap: break-word;&quot; class=&quot;ptNLrf&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent;&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent;&quot; data-is-tv=&quot;false&quot;&gt;Start:&lt;br/&gt;    Der Nutzer gibt einen Suchbegriff in die Suchleiste ein (z. B. &quot;Laptop&quot;).&lt;br/&gt;&lt;br/&gt;API-Request:&lt;br/&gt;    Das Frontend sendet den API-Request: GET /products?search=Laptop an den Server.&lt;br/&gt;&lt;br/&gt;Server-Verarbeitung:&lt;br/&gt;    Der Server validiert die Anfrage (z. B. Prüfung des Suchbegriffs).&lt;br/&gt;    Die Datenbank wird abgefragt: Suche nach Produkten, die mit &quot;Laptop&quot; übereinstimmen.&lt;br/&gt;    Die Ergebnisse werden gefiltert und nach Relevanz sortiert.&lt;br/&gt;&lt;br/&gt;API-Response:&lt;br/&gt;    Der Server erstellt eine&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent; color: rgba(0, 0, 0, 0.87); font-family: &amp;quot;Google Sans&amp;quot;; text-align: left; text-wrap: wrap; background-color: rgb(255, 255, 255);&quot; data-message-id=&quot;spaces/Yk4keEMcvSgB/messages/1737727327474137&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent; border-radius: 0.25rem;&quot; class=&quot;jO4O1&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent; color: var(--hotlane-on-background-color); font-size: 0.8125rem; line-height: 1.25rem; padding-left: 1rem; padding-right: 1rem; position: relative; white-space-collapse: preserve; overflow-wrap: break-word;&quot; class=&quot;ptNLrf&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent;&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent;&quot; data-is-tv=&quot;false&quot;&gt;JSON-Antwort mit Produktinformationen und sendet sie zurück.&lt;br/&gt;&lt;br/&gt;Frontend-Darstellung:&lt;br/&gt;    Das Frontend empfängt die JSON-Daten und zeigt sie dem Nutzer in einer übersichtlichen Liste an.&lt;br/&gt;&#x9;Jedes Produkt wird mit Namen, Preis und Bewertung dargestellt.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="360" width="590" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wm9D5R3GlwCYCQ5zJYFi-3" target="Wm9D5R3GlwCYCQ5zJYFi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-3" value="Website wird aufgerufen.&lt;div&gt;&lt;b&gt;GET&lt;/b&gt;-Request&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="219" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wm9D5R3GlwCYCQ5zJYFi-4" target="Wm9D5R3GlwCYCQ5zJYFi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-4" value="API-Request:&lt;div&gt;&lt;b&gt;GET&lt;/b&gt;/products?search=Laptop&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="244" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wm9D5R3GlwCYCQ5zJYFi-7" target="Wm9D5R3GlwCYCQ5zJYFi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-7" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="264" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-8" value="Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wm9D5R3GlwCYCQ5zJYFi-9" target="Wm9D5R3GlwCYCQ5zJYFi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-9" value="Datenbank wird abgefragt. Suche nach Produkten, die mit &quot;Laptop&quot; übereinstimmen." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="335" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wm9D5R3GlwCYCQ5zJYFi-10" target="Wm9D5R3GlwCYCQ5zJYFi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-10" value="Server erstellt eine JSON-Antwort mit Produktinformationen &quot;Farbe&quot;, &quot;Menge&quot;, &quot;Preis&quot;, etc." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="470" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wm9D5R3GlwCYCQ5zJYFi-14" target="Wm9D5R3GlwCYCQ5zJYFi-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-14" value="Frontend empfängt JSON-Daten und zeigt dem Nutzer diese in einer Liste an" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wm9D5R3GlwCYCQ5zJYFi-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-15" value="Produkt wird mit Namen, Preis und Bewertung dargestellt" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="384.5" y="760" width="151" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wm9D5R3GlwCYCQ5zJYFi-19" target="Wm9D5R3GlwCYCQ5zJYFi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-19" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="25" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm9D5R3GlwCYCQ5zJYFi-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
