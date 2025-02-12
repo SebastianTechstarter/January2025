@@ -1,0 +1,80 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Seite-1" id="uvwd6I8NpuWQVSr0hmxC">
+    <mxGraphModel dx="1290" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.373;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7HZp-LmwYv5EvwYYI60M-2" target="7HZp-LmwYv5EvwYYI60M-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="62.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="40" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-3" value="Verbindung zum Router, da die angefragte IP nicht im Netzwerk ist." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-5" value="Website &quot;example.com&quot; soll erreicht werden" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="28" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7HZp-LmwYv5EvwYYI60M-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-6" value="" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="560" y="10" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-7" value="DNS&lt;div&gt;&amp;nbsp;(Domain Name System)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="100" as="sourcePoint" />
+            <mxPoint x="570" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-15" value="Anfrage, um IP von&lt;div&gt;&amp;nbsp;example.com zu ermitteln&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="130" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="230" as="sourcePoint" />
+            <mxPoint x="610" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-17" value="Gibt die IP von example.com&amp;nbsp;&lt;div&gt;zurück und wir wissen nun,&amp;nbsp;&lt;div&gt;wohin die Anfrage gesendet&lt;/div&gt;&lt;div&gt;&amp;nbsp;werden muss.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="115" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7HZp-LmwYv5EvwYYI60M-20" target="7HZp-LmwYv5EvwYYI60M-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-20" value="HTTP/HTTPS&lt;div&gt;Port 80 / 443&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-22" value="Verbindung zur ermittelten IP,&lt;div&gt;&amp;nbsp;Daten werden abgerufen&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="370" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-23" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="560" y="435" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-25" value="Server ruft Inhalt der Seite ab." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="518" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7HZp-LmwYv5EvwYYI60M-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="340" as="sourcePoint" />
+            <mxPoint x="130" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HZp-LmwYv5EvwYYI60M-27" value="User bekommt Website angezeigt.&amp;nbsp;&lt;div&gt;Prozess wiederholt sich für jede Ressource,&amp;nbsp;&lt;/div&gt;&lt;div&gt;die abgerufen wird.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="273" width="260" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
